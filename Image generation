@@ -1,0 +1,6 @@
+# Display your wordcloud image
+
+myimage = calculated_frequencies(file_contents)
+plt.imshow(myimage, interpolation = 'nearest')
+plt.axis('off')
+plt.show()
